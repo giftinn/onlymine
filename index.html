@@ -237,8 +237,8 @@ pointer-events:none;
 
 <!-- welcome -->
 <section class="card active">
-<h1>Special gift</h1>
-<p>For someone i love the most. <br>But you have to unlock it.</p>
+<h1>I belongs to you</h1>
+<p>I made this special for you.<br>But you have to unlock it.</p>
 <button onclick="next()">Unlock</button>
 </section>
 
@@ -279,7 +279,7 @@ Points: <span id="score">0</span> / 3
 <!-- final -->
 <section class="card">
 
-<h1>Another Month of Us</h1>
+<h1>Happy 7th mensiversary bebe</h1>
 
 <div class="lovebox">
 <div class="timer-title">TIME WITH YOU</div>
@@ -333,7 +333,7 @@ if(page===2)loadQuestion();
 ================================================= */
 
 let pinInput = '';
-const correctPin = '1402';
+const correctPin = '0110';
 const pinDisplay = document.getElementById("pin");
 
 function renderDots(){
@@ -381,9 +381,9 @@ function checkPin(){
 ================================================= */
 
 const questions=[
-{q:"When did we first meet? ", options:["14 February"," 24 January","22 January"],correct:2},
-{q:"Who loves the most?", options:["You","100% me","Both"],correct:2},
-{q:"What’s on my mind most of the time?", options:["Anime","Someone else","You (my pretty girlfriend"],correct:2}
+{q:"When did we first meet? ", options:["February","January","October"],correct:2},
+{q:"Who loves the most?", options:["You","Both","Me"],correct:1},
+{q:"What’s on my mind most of the time?", options:["You ofc","Someone else","Game"],correct:0}
 ];
 
 let currentQ = 0;
@@ -448,7 +448,7 @@ function checkAnswer(i,btn){
 
 function startTimer(){
 
-    const start = new Date("2026-01-22T00:00:00");
+    const start = new Date("2025-10-01T00:00:00");
 
     setInterval(()=>{
 
@@ -482,11 +482,7 @@ function revealMemory(el){
     `;
 
     const text = `
-      Even all the beautiful words in the world still wouldn’t be enough to explain how much you mean to me. Yet here you are, right in my life, and somehow that alone says everything. I admire the little things about you—the way you care about me, the way you talk, and how your eyes light up when you’re excited, especially when it’s with me. 
-
-      With you, I’ve found a kind of peace I didn’t even know I was looking for. It’s a kind of comfort I didn’t know I needed until I found it in you. It’s something I can’t find anywhere else, no matter how hard I try. Every moment with you, no matter how small, feels important and meaningful.
-      
-      Thank you for being here with me, for every moment, every word, and every feeling we’ve shared. Happy 2nd mensiversary, sayangku. I’m so grateful for you, today and always. ❤️  
+      Happy 7th anniversary, bebe. I never thought we'd come this far bee... 7 months isn't a short time, but you still want to be with me. Thank you for being in my life, for being patient with me, and for being there even when times aren't always easy. I know we haven't communicated much lately, but I’ll ALWAYS LOVE YOU. Even though we're both busy, it doesn't make my love for you any less. I hope we can continue to be together in the future and remain a place of return for each other. I love you, Margi. 
       `;
 
     const paragraphs = text.trim().split(/\n\s*\n/);
